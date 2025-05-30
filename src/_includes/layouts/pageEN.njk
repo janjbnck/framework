@@ -33,9 +33,9 @@ sourceCodeUrl:
         <meta name="apple-mobile-web-app-title" content="{{ titlePrefix }}" />
         <link rel="manifest" href="/assets/media/site.webmanifest" />
 
-        <link rel="alternate" hreflang="en" href="https://{{ domain }}/en/{{ path }}" />
-        <link rel="alternate" hreflang="de" href="https://{{ domain }}/de/{{ path }}" />
-        <link rel="alternate" hreflang="x-default" href="https://{{ domain }}/en/{{ path }}" />
+        <link rel="alternate" hreflang="en" href="https://{{ domain }}/en{{ path }}" />
+        <link rel="alternate" hreflang="de" href="https://{{ domain }}/de{{ path }}" />
+        <link rel="alternate" hreflang="x-default" href="https://{{ domain }}/en{{ path }}" />
         <link rel="canonical" href="https://{{ domain }}/en/{{ path }}" />
         <meta name="robots" content="index, follow">
 
@@ -51,7 +51,7 @@ sourceCodeUrl:
             <ul>
                 <li><a href="{{ privacyPolicyUrl }}">Privacy Policy</a></li>
                 <li><a href="{{ sourceCodeUrl }}">Source Code</a></li>
-                <li><a href="/de/{{ path }}">Deutsche Version</a></li>
+                <li><a href="/de{{ path }}">Deutsche Version</a></li>
             </ul>
         </footer>
     </body>
